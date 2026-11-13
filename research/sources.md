@@ -1,0 +1,48 @@
+# PDF reference source map
+
+Minimal URL map consumed by `editorial/references.lua`. The readable citation titles and notes are in the numbered `book/` chapter files.
+
+- [B01] https://ethereum.org/en/developers/docs/apis/json-rpc/
+- [B04] https://github.com/flashbots/mempool-dumpster
+- [B06] https://docs.flashbots.net/flashbots-mev-boost/introduction
+- [B08] https://metamask.com/privacy-notice
+- [B18] https://docs.flashbots.net/flashbots-protect/settings-guide
+- [B29] https://arxiv.org/abs/2508.21440
+- [B45] https://arxiv.org/abs/2005.14051
+- [C04] https://arxiv.org/abs/2201.09035
+- [C27] https://docs.near-intents.org/getting-started/what-are-intents
+- [C33] https://eips.ethereum.org/EIPS/eip-5564
+- [C35] https://github.com/ScopeLift/umbra-protocol
+- [D14] https://x.com/i/article/2111093209350721536
+- [D15] https://www.gendarmerie.interieur.gouv.fr/gendinfo/criminalite-organisee-et-enquetes/2025/enlevement-de-david-balland-un-engagement-massif-et-complet-de-la-gendarmerie-nationale
+- [D16] https://www.coinbase.com/blog/protecting-our-customers-standing-up-to-extortionists
+- [D25] https://x.com/CTI__Updates/status/2115095633589882891
+- [D26] https://x.com/PerpetualCow/status/2115384084478185875
+- [D27] https://www.leparisien.fr/val-d-oise-95/une-famille-sequestree-et-violentee-pour-100-euros-de-cryptomonnaies-six-suspects-mis-en-examen-apres-un-home-jacking-a-taverny-23-09-2026-2PJADY7AEVD6FH2AW7KIAL4TWE.php
+- [D28] https://help.waltio.com/en/articles/13482134-questions-answers-security-incident
+- [E12] https://docs.aztec.network/developers/docs/foundational-topics/state_management
+- [E13] https://docs.starknet.io/learn/protocol/data-availability
+- [E2] https://docs.zama.org/protocol/zama-protocol-litepaper
+- [E27] https://docs.fluidkey.com/technical-documentation/technical-walkthrough
+- [E29] https://docs.cow.fi/cow-protocol/reference/core/auctions/schema
+- [E32] https://www.near.org/blog/confidential-intents
+- [E4] https://docs.zama.org/protocol/protocol/overview/kms
+- [F01] https://svn.torproject.org/svn/projects/design-paper/tor-design.pdf
+- [F03] https://arxiv.org/abs/1703.00536
+- [F05] https://www.wisdom.weizmann.ac.il/~/oded/p_pir.html
+- [F07] https://hisoka.io/blog/introducing-raven/
+- [F08] https://nym.com/blog/mixnet-tuning
+- [F10] https://reads.ethereum.foundation/projects/pir/wallets/
+- [F14] https://ssd.eff.org/module/vpn.html
+- [F19] https://docs.hisoka.io/docs/nox
+- [G01] https://docs.openzeppelin.com/confidential-contracts/api/token
+- [H01] https://support.torproject.org/tor-browser/features/fingerprinting-protections/
+- [H03] https://support.metamask.io/more-web3/dapps/manage-dapp-permissions
+- [J01] https://www.maine.gov/agviewer/content/ag/985235c7-cb95-4be2-8792-a1252b4f8318/f61fae18-f669-499e-9a87-f4d323d281f8.html
+- [J02] https://kb.etherscan.com/what-is-etherscan
+- [J03] https://docs.hoprnet.org/core/incentives
+- [J09] https://docs.railgun.org/wiki/learn/overview
+- [J10] https://docs.privacypools.com/layers/asp
+- [J11] https://docs.cow.fi/cow-protocol/concepts/introduction/intents
+- [J12] https://docs.aztec.network/developers/docs/foundational-topics/ethereum-aztec-messaging
+- [K01] https://ethereum.org/developers/docs/nodes-and-clients/

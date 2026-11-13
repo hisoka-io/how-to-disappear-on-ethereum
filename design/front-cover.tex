@@ -1,0 +1,53 @@
+% High-resolution spiral with sharp vector lettering, 29 Oct 2026.
+\usepackage{graphicx}
+\definecolor{tracescoverbg}{HTML}{202321}
+\definecolor{tracescovertext}{HTML}{F3EFE4}
+\definecolor{tracescoveraccent}{HTML}{B84936}
+\newfontfamily\coverfont{Inter}[Path=design/fonts/,Extension=.ttf,
+  UprightFont=*-Regular,BoldFont=*-Bold]
+\providecommand{\coverbleed}{0mm}
+\newcommand{\TracesFrontCover}{%
+  \begingroup
+  \ifdefined\setstretch\setstretch{1}\fi
+  \ifdefined\microtypesetup\microtypesetup{activate=false}\fi
+  \thispagestyle{empty}%
+  \pagecolor{tracescoverbg}%
+  \begin{tikzpicture}[remember picture,overlay,x=1mm,y=-1mm]
+    \begin{scope}[shift={([xshift=\coverbleed,yshift=-\coverbleed]current page.north west)}]
+      % Artwork is independent of the lettering; type remains vector in PDF.
+      \node[anchor=north west,inner sep=0] at (0,0)
+        {\includegraphics[width=148mm,height=210mm]{design/assets/cover-spiral-hires.png}};
+      \node[anchor=north west,inner sep=0,text=tracescovertext] at (12,123)
+        {\coverfont\bfseries\fontsize{50}{52}\selectfont How to};
+      \node[anchor=north west,inner sep=0,text=tracescovertext] (disappear) at (12,141)
+        {\coverfont\bfseries\fontsize{50}{52}\selectfont disappear};
+      \draw[tracescoveraccent,line width=3.5pt]
+        ([xshift=-1.5mm]disappear.west) -- ([xshift=1.5mm]disappear.east);
+      \node[anchor=north west,inner sep=0,text=tracescovertext] at (12,159)
+        {\coverfont\bfseries\fontsize{50}{52}\selectfont on Ethereum};
+      \node[anchor=north west,inner sep=0,text=tracescovertext] at (12,180)
+        {\coverfont\fontsize{20}{24}\selectfont A field guide to privacy};
+      \node[anchor=south west,inner sep=0,text=tracescovertext] at (12,195)
+        {\coverfont\fontsize{8}{10}\selectfont by hisoka.io};
+    \end{scope}
+  \end{tikzpicture}%
+  \null\clearpage\nopagecolor\color{black}%
+  \endgroup
+}
+
+% Back cover: same ground and publication details. This is the last page.
+\newcommand{\TracesBackCover}{%
+  \cleardoublepage
+  \thispagestyle{empty}%
+  \pagecolor{tracescoverbg}%
+  \begin{tikzpicture}[remember picture,overlay,x=1mm,y=-1mm]
+    \begin{scope}[shift={([xshift=\coverbleed,yshift=-\coverbleed]current page.north west)}]
+      \ifdefined\TracesPublicationNote
+      \node[anchor=south west,inner sep=0,text=tracescovertext,
+        text width=116mm,align=left] at (16,181)
+        {\coverfont\fontsize{8}{11}\selectfont\TracesPublicationNote};
+      \fi
+    \end{scope}
+  \end{tikzpicture}%
+  \null\clearpage\nopagecolor
+}
