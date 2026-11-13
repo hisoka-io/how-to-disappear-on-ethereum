@@ -4,7 +4,7 @@
   <img src="images/book-cover.png" alt="Book cover" width="320">
 </p>
 
-A short introduction to privacy on Ethereum and what different privacy approaches can protect.
+A short introduction to privacy on Ethereum and what different privacy approaches can protect. checkout first revision [here](https://github.com/hisoka-io/how-to-disappear-on-ethereum/blob/main/how-to-disappear-on-ethereum.pdf).
 
 The book will keep evolving. To suggest a change or add content, please open an issue or pull request.
 
